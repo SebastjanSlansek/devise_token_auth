@@ -51,7 +51,7 @@ module ActionDispatch::Routing
           path:         '',
           shallow_path: '',
           constraints:  {},
-          defaults:     {},
+          defaults:     opts[:defaults] || {},
           options:      {},
           parent:       nil
         )
